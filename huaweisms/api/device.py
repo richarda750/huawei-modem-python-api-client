@@ -33,9 +33,6 @@ def reboot(ctx):
 
 def net1800(ctx):
     # type: (ApiCtx) -> dict
-    """
-    Reboots the modem.
-    """
 
     url = '{}/net/net-mode'.format(ctx.api_base_url)
     headers = {
@@ -47,9 +44,6 @@ def net1800(ctx):
 
 def net2600(ctx):
     # type: (ApiCtx) -> dict
-    """
-    Reboots the modem.
-    """
 
     url = '{}/net/net-mode'.format(ctx.api_base_url)
     headers = {
@@ -62,9 +56,6 @@ def net2600(ctx):
 
 def netall(ctx):
     # type: (ApiCtx) -> dict
-    """
-    Reboots the modem.
-    """
 
     url = '{}/net/net-mode'.format(ctx.api_base_url)
     headers = {
